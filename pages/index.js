@@ -388,6 +388,57 @@ export default function Home() {
 
         <button className={styles.blog_btn}>Load more</button>
       </main>
+
+      <footer>
+        <section className='footer_cta'>
+          <h1>An enterprise template to ramp up your company website</h1>
+
+          <form>
+            <input type={'email'} placeholder="Your email address" />
+            <input type={'button'} value="Start now" />
+          </form>
+        </section>
+
+        <section style={{
+          display: 'flex',
+          justifyContent: 'flex-start',
+          marginTop: '70px'
+        }}>
+          <div className='footer_content'>
+            <div style={{display: 'flex'}}>
+              <span><Image src={'/footer-logo.png'} width={24.92} height={32.37}/> </span>
+              <h1>Boldo</h1>
+            </div>
+
+            <p>Social media validation business model canvas graphical user interface launch party creative facebook iPad twitter.</p>
+
+            <p>All rights reserved</p>
+          </div>
+
+          <div className='footer_links'>
+            <ul>
+              <p>Landings</p>
+              <li>Home</li>
+              <li>Products</li>
+              <li>Service</li>
+            </ul>
+
+            <ul>
+              <p>Company</p>
+              <li>Home</li>
+              <li>Career <span className='hiring'>Hiring</span></li>
+              <li>Service</li>
+            </ul>
+
+            <ul>
+              <p>Resources</p>
+              <li>Blog</li>
+              <li>Products</li>
+              <li>Service</li>
+            </ul>
+          </div>
+        </section>
+      </footer>
     </div>
   )
 }
