@@ -258,7 +258,7 @@ export default function Home() {
             </div>
 
             <div className={styles.comments_card}>
-              <p style={{width: '220px', border: '1px solid red'}}>
+              <p style={{width: '220px'}}>
                 “Release facebook responsive web design business model canvas seed money monetization.”
               </p>
               <div className={styles.author}>
@@ -310,6 +310,83 @@ export default function Home() {
             </p>
           </div>
         </div>
+      </main>
+
+      <main className={styles.blog}>
+        <section className={styles.blog_heading}>
+          <p style={{color: 'grey'}}>Our blog</p>
+          <h1 className={styles.blog_heading_title}>Value proposition accelerator product management venture</h1>
+        </section>
+
+        <section className={styles.blog_cards}>
+          <div className={styles.blog_card}>
+            <Image src={'/blog1.png'} width={300} height={209} />
+
+            <div>
+              <div>
+                <p style={{margin: '15px 0'}}>
+                  <span style={{color: '#0A2640',fontWeight: '700',marginRight: '13px'}}>Category</span> 
+                  <span style={{color: 'grey', opacity: '0.7'}}>October 22, 2022</span>
+                </p>
+
+                <p style={{margin: '15px 0'}}>
+                  Pitch termsheet backing validation focus release.
+                </p>
+              </div>
+
+              <div style={{display: 'flex', alignItems: 'center'}}>
+                <Image src={'/author1.png'} width={32} height={32} />
+                <span style={{marginLeft: '10px'}}>Chandler Bing</span>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.blog_card}>
+            <Image src={'/blog2.png'} width={300} height={209} />
+
+            <div>
+              <div>
+                <p style={{margin: '15px 0'}}>
+                  <span style={{color: '#0A2640',fontWeight: '700',marginRight: '13px'}}>Category</span> 
+                  <span style={{color: 'grey', opacity: '0.7'}}>October 22, 2022</span>
+                </p>
+
+                <p style={{margin: '15px 0'}}>
+                  Pitch termsheet backing validation focus release.
+                </p>
+              </div>
+
+              <div style={{display: 'flex', alignItems: 'center'}}>
+                <Image src={'/author2.png'} width={32} height={32} />
+                <span style={{marginLeft: '10px'}}>Monica Geller</span>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.blog_card}>
+            <Image src={'/blog3.png'} width={300} height={209} />
+
+            <div>
+              <div>
+                <p style={{margin: '15px 0'}}>
+                  <span style={{color: '#0A2640',fontWeight: '700',marginRight: '13px'}}>Category</span> 
+                  <span style={{color: 'grey', opacity: '0.7'}}>October 22, 2022</span>
+                </p>
+
+                <p style={{margin: '15px 0'}}>
+                  Pitch termsheet backing validation focus release.
+                </p>
+              </div>
+
+              <div style={{display: 'flex', alignItems: 'center'}}>
+                <Image src={'/author3.png'} width={32} height={32} />
+                <span style={{marginLeft: '10px'}}>Rachel Green</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <button className={styles.blog_btn}>Load more</button>
       </main>
     </div>
   )
